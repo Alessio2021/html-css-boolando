@@ -84,10 +84,27 @@ button {
     font-size: 1.5em;
 }
 
+
 .invisible {
     display: none;
 }
 
 [class*="col_"]:hover .invisible {
     display: block
+}
+
+[class*="col_"]:hover .visible {
+    display: none
+}
+
+#foto6{
+    color: white;
+    background-color: rgb(0,135,90);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0.3em;
+    position: absolute;
+    bottom: 118px;
+    left: 13px;
+}
 }
