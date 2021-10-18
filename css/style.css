@@ -9,7 +9,7 @@ body {
 }
 
 .container { 
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -21,9 +21,29 @@ body {
 
 [class*="col_"] {
     float: left;
-    padding: 2em;   
+    padding: 0.8em;   
 }
 
 img {
     height: 35em;
+}
+
+.brand {
+    padding-top: 0.5em;
+}
+
+.product-name {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.red {
+    margin: 0;
+    color: red;
+}
+
+.thin {
+    text-decoration-line: line-through;
+    color: black;
+    font-weight: 100;
 }
